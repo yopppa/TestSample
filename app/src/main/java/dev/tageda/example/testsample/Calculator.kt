@@ -11,6 +11,6 @@ class Calculator {
     }
 
     fun message(): String {
-        return "message"
+        return "messagex"
     }
 }
