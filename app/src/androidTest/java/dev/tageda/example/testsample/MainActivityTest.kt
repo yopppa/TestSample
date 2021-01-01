@@ -38,6 +38,6 @@ class MainActivityTest {
             .perform(ViewActions.click())
 
         onView(ViewMatchers.withId(R.id.show_text))
-            .check(ViewAssertions.matches(ViewMatchers.withText("Hello")))
+            .check(ViewAssertions.matches(ViewMatchers.withText("Hello World")))
     }
 }
